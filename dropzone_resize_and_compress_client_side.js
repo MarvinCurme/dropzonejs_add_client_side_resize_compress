@@ -6,7 +6,6 @@ var resizeImgList = [];
 Dropzone.options.myDropzone = {
 	// Prevents Dropzone from uploading dropped files immediately
 	autoProcessQueue: false,
-	clickable: '.fileinput-button',
 	maxFiles: 5,
 	init: function() {
 		myDropzone = this; // closure
